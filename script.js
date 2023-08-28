@@ -2,7 +2,6 @@
 const stars = document.getElementById('stars');
 const mountains_behind = document.getElementById('mountains_behind');
 const text = document.getElementById('text');
-const logoku = document.getElementById('logoku');
 const mountains_front = document.getElementById('mountains_front');
 const header = document.querySelector('header');
 
@@ -19,4 +18,5 @@ window.addEventListener('scroll', function() {
   text.style.marginTop = value * 1.5 + 'px';
   logoku.style.marginTop = value * 1.5 + 'px';
   header.style.top = value * 0.5 + 'px';
+  
 });
