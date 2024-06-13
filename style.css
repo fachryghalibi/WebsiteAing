@@ -136,6 +136,9 @@ section img#mountains_front {
   transition-delay: 0s;
 }
 
+.fotoSaya {
+  height : 300px;
+}
 
 .logoku span {
   position: absolute;
